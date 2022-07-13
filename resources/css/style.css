@@ -45,7 +45,6 @@ body {
 
 /* ----------------------------------------------------------------------------------- */
 /* -----------------------------------------Phần Đầu-------------------------------------- */
-.heading_1,
 h1 {
     display: block;
     font-size: 2em;
@@ -53,20 +52,8 @@ h1 {
     margin: 0px auto;
     color: white;
     text-align: center;
+    margin-top: 0px;
     font-family: 'Lato', sans-serif;
-}
-
-.heading_1 {
-    line-height: 6px;
-}
-
-.heading_2 {
-    display: inline-block;
-    margin: 10px auto;
-    font-size: 20px;
-    padding: 0px 7px;
-    text-decoration: none;
-    color: white;
 }
 
 .container {
@@ -274,7 +261,7 @@ h1 {
 #h3 {
     display: inline-block;
     padding-left: 9%;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 11px;
     height: 100%;
 }

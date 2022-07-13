@@ -130,7 +130,7 @@
     }
     .hop-nhap-thoi-gian{
         width: 93%;
-        display: block;
+        display: none;
     }
     .thoi-gian {
         font-size: 14px;
