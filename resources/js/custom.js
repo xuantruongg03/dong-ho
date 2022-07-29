@@ -191,4 +191,4 @@ $("#bar > #bar-run").each(function () {
       },
       1200
     );
-});
+})
