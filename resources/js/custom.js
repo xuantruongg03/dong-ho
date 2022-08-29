@@ -122,7 +122,7 @@ function start(params) {
         document.getElementById('bar').style.display = 'none';
         swal({
           title: 'ĐÃ HẾT GIỜ',
-          text: 'Hết giờ rồi ông cháu êy !',
+          text: 'Hết giờ rồi bạn ơi !!!',
           type: 'warning',
           confirmButtonText: 'Tắt chuông'
         }).then((result) => {
@@ -133,6 +133,8 @@ function start(params) {
             min = null
             sec = null
             percent = 0;
+            document.getElementById('pause').style.cursor = 'no-drop';
+            document.getElementById('start').style.cursor = 'default';
           }
         })
       return false;
